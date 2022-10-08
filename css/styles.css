@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+/*variables css*/
+
+:root {
+    ---header-height: 3rem;
+    /*colors*/
+    /* EDFB54  -yellowish color*/
+    /* 0CA5AF  - blueish one to hover maybe*/
+
+    --hue-color:  ;
+}
+
+
+
+.header {
+    text-align: center;
+    color: #056470;
+    margin-top: 150px;
+}
+.about{
+    
+    color: aqua;
+    margin: auto;
+}
+.about p{
+    color: #056470;
+}
+.about h1{
+    color: #022e34;
+}
+.nav-item{
+    color: #ffffff;
+}
+
+
+.card p{
+    text-align: center;
+}
+
+.card-body.btn.btn-warning{
+    color: blue;
+}
+
+.row{
+    padding: 3rem;
+}
+
+h3{
+    text-align: center;
+    padding: 1rem;
+    color: chocolate;
+}
+
