@@ -13,3 +13,7 @@ fetch('/footer.html')
 .then(data=>{
     nav2.innerHTML = data
 })
+
+$('.special.cards .image').dimmer({
+    on: 'hover'
+});

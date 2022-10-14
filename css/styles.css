@@ -22,6 +22,8 @@
     
     color: aqua;
     margin: auto;
+    padding-top: 40px;
+    
 }
 .about p{
     color: #056470;
@@ -43,12 +45,47 @@
 }
 
 .row{
-    padding: 3rem;
+    padding: 2rem;
 }
 
-h3{
+h2{
     text-align: center;
     padding: 1rem;
     color: chocolate;
 }
 
+.card.text-bg-light.mb-3{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+    color: rgb(98, 11, 155);
+}
+
+.col-sm-3{
+    padding: 10px;
+}
+
+.personal-info{
+    color: rgb(93, 31, 155);
+    padding-top: 55px;
+}
+
+.col-sm-4{
+    align-self: center;
+}
+
+.col-sm-8{
+    align-self: center;
+    padding-top: 0%;
+}
+
+.img-fluid.rounded-start{
+    width: 300px;
+}
+
+.contact-form{
+    margin: auto;
+    padding-top: 50px;
+}
