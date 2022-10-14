@@ -16,14 +16,12 @@
 .header {
     text-align: center;
     color: #056470;
-    margin-top: 150px;
+    
 }
 .about{
     
-    color: aqua;
     margin: auto;
-    padding-top: 40px;
-    
+    padding-top: 100px;
 }
 .about p{
     color: #056470;
@@ -74,11 +72,13 @@ h2{
 
 .col-sm-4{
     align-self: center;
+    padding: 10px;
 }
 
 .col-sm-8{
     align-self: center;
-    padding-top: 0%;
+    padding: 10px;
+    height: 300px;
 }
 
 .img-fluid.rounded-start{
@@ -88,4 +88,8 @@ h2{
 .contact-form{
     margin: auto;
     padding-top: 50px;
+}
+
+.contact-form.w-50{
+    color: rgb(28, 73, 157);
 }
