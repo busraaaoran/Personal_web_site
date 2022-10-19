@@ -98,4 +98,6 @@ h2{
     color: rgb(6, 6, 88);
     text-align: center;
     font-size: large;
+    margin: auto;
+    padding-top: 150px;
 }
