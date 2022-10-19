@@ -23,18 +23,25 @@
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark"></nav>
 
-    <div class="contact-form w-50">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Type Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <form action="https://formsubmit.co/busraoran043@gmail.com" method="POST">
+      <div class="contact-form w-50">
+        <div class="mb-3">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="We got some news for youuu!">
+          <input type="hidden" name="_next" href = "http://127.0.0.1:5500/thankyou.html" required>
+          <label for="exampleFormControlInput1" class="form-label">Type Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Type Your Message</label>
+          <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-info text-white">Send</button>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Type Your Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <button type="button" class="btn btn-info text-white">Send</button>
-    </div>
-
+  
+    </form>
+    
     <footer class="text-center text-white"></footer> 
 
     <style>
